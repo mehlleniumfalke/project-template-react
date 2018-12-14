@@ -1,0 +1,23 @@
+extends:
+- plugin:prettier/recommended
+
+parser: babel-eslint
+
+plugins:
+  - import
+
+settings:
+  import/resolver:
+    babel-module:
+
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+    experimentalObjectRestSpread: true
+
+env:
+  browser: true
+  node: true
+  es6: true
