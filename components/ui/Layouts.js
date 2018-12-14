@@ -1,3 +1,5 @@
+// example, feel free to remove or change as you like
+
 import styled from 'styled-components'
 
 export const CenteredLayout = styled.div`
