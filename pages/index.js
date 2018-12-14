@@ -3,7 +3,7 @@ import {  } from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { CenteredLayout } from 'ui/Layouts'
-import  { uuid, icons }  from 'utils'
+import  { icons }  from 'utils'
 
 const Index = () => (
     <Fragment>
